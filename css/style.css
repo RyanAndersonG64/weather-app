@@ -22,9 +22,15 @@
 
 #errorMessage {
   color: red;
-  position: relative;
-  top: 25px;
+  position: absolute;
+  top: 55px;
   margin-left: 5px;
+}
+
+#locationButton {
+  position: relative;
+  top: 70px;
+  left: 50px;
 }
 
 .city {
@@ -32,7 +38,7 @@
   height: 25px;
   width: 300px;
   position: relative;
-  top: 75px;
+  top: 100px;
   text-align: center;
   border: solid;
   border-width: 1px;
@@ -43,7 +49,7 @@
   height: 50px;
   width: 300px;
   position: relative;
-  top: 75px;
+  top: 100px;
   border: solid;
   border-width: 1px;
   line-height: 45px;
@@ -55,7 +61,7 @@
   height: 25px;
   width: 300px;
   position: relative;
-  top: 125px;
+  top: 150px;
   text-align: center;
   border: solid;
   border-width: 1px;
@@ -66,7 +72,7 @@
   height: 50px;
   width: 300px;
   position: relative;
-  top: 125px;
+  top: 150px;
   text-align: center;
 }
 
@@ -75,7 +81,7 @@
   height: 25px;
   width: 300px;
   position: relative;
-  top: 175px;
+  top: 200px;
   text-align: center;
   border: solid;
   border-width: 1px;
@@ -86,7 +92,7 @@
   height: 50px;
   width: 300px;
   position: relative;
-  top: 175px;
+  top: 200px;
   text-align: center;
   border: solid;
   border-width: 1px;
@@ -96,7 +102,7 @@
 .kelvin {
   height: auto;
   text-align: center;
-  border: solid;
+  border: solid black;
   border-width: 1px;
   line-height: 45px;
 }
@@ -104,7 +110,7 @@
 .fahrenheit {
   height: auto;
   text-align: center;
-  border: solid;
+  border: solid black;
   border-width: 1px;
   line-height: 45px;
 }
@@ -112,14 +118,14 @@
 .celsius {
   height: auto;
   text-align: center;
-  border: solid;
+  border: solid black;
   border-width: 1px;
   line-height: 45px;
 }
 
 .weatherIcon {
   position: relative;
-  top: 200px;
+  top: 225px;
   width:300px;
   height:200px;
   text-align: center;

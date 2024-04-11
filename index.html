@@ -10,9 +10,27 @@
     <!-- project styles -->
     <link rel="stylesheet" href="./css/style.css">
   </head>
-  <body class="bg-primary">
-    <div id="app">
-      <h1>Hello!</h1>
+
+  <body class="bg-info">
+    <div class = "row">
+      <div class = "col-6 mx-auto app">
+        <input type="text" id = "zipcode" name = "zipcode" value="Enter a zipcode"> <button type="button" id = "weatherButton">Get Weather</button>
+        <div id = "errorMessage"></div>
+        <div class = "city mx-auto">City</div>
+        <div class = "outputCity mx-auto" id = "outputCity"></div>
+
+        <div class = "temperature mx-auto">Temperature</div>
+        <div class = " row outputTemperature mx-auto">
+          <div class = "col kelvin" id = "kelvin"></div>
+          <div class = "col fahrenheit" id = "fahrenheit"></div>
+          <div class = "col celsius" id = "celsius"></div>
+        </div>
+        <div class = "condition mx-auto">Condition</div>
+        <div class = "outputCondition mx-auto" id = "outputCondition"></div>
+        <div class = "weatherIcon mx-auto" id = "weatherIcon">
+          <img id = "weatherIconImage" src="" width="200" height="200">
+        </div>
+      </div>
     </div>
 
     <!-- BootStrap JavaScript -->

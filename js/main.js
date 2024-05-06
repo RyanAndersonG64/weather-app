@@ -1,3 +1,4 @@
+import axios from "axios";
 document.getElementById("zipcode").addEventListener("click", function(){
     if (document.getElementById("zipcode").value === "Enter a zipcode") {
         document.getElementById("zipcode").value = "";
@@ -19,7 +20,6 @@ function currentLocation(position) {
     getWeatherAtCurrentLocation();
 }
 
-import axios from "axios";
 async function getWeather(){
     let weatherURL = "https://api.openweathermap.org/data/2.5/weather?zip=" + document.getElementById("zipcode").value + ",us&appid=4ec8e174794a1b4bf79276d10fe060be";
     try {

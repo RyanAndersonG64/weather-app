@@ -1,4 +1,5 @@
 import axios from "axios";
+
 document.getElementById("zipcode").addEventListener("click", function(){
     if (document.getElementById("zipcode").value === "Enter a zipcode") {
         document.getElementById("zipcode").value = "";
